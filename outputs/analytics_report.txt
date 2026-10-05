@@ -1,0 +1,14 @@
+NETFLIX CONTENT SUCCESS ANALYTICS ENGINE - AUTOMATED REPORT
+============================================================
+
+Key Insights:
+  1. Catalog is 69.7% Movies and 30.3% TV Shows.
+  2. 2021 data only covers 268 days; annualized to ~2040 titles vs 1879 in 2020 (+8.6%).
+  3. Most common primary genre: 'Dramas'. Most common production country: 'United States'.
+  4. Best-performing model for Movie/TV prediction (no leakage): Random Forest (79.5% accuracy).
+  5. Largest content segment (cluster 3, n=1813) is dominated by 'Dramas' content.
+
+Model Performance Summary (duration excluded to avoid leakage):
+  - Logistic Regression: accuracy=0.7139, f1_macro=0.5798
+  - Decision Tree: accuracy=0.7873, f1_macro=0.7405
+  - Random Forest: accuracy=0.7952, f1_macro=0.7511
